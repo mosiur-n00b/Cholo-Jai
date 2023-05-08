@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".select_car">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Select Car"
+        android:background="#374AB3"
+        android:textSize="25dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#FBF7F7"
+        />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+                android:orientation="vertical"
+                 >
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/corolla"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toyota Corolla"
+                    android:layout_marginLeft="170dp"
+                   android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/noah"
+                    android:layout_margin="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toyota Noah"
+                    android:layout_marginLeft="170dp"
+                   />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bus"
+                    android:layout_margin="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tourist Bus"
+                    android:layout_marginLeft="170dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/allion"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toyota Allion"
+                    android:layout_marginLeft="170dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/hiace"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toyota Hiace"
+                    android:layout_marginLeft="170dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose Cars"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#0F2088"
+                    android:textStyle="bold"
+                    />
+                            <RadioGroup
+                                android:id="@+id/carSelection"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <RadioButton
+                                    android:id="@+id/car1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="25dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:text="Toyota Corolla(4-5 Person , BDT 4,000)"
+                                    android:textColor="#000000"
+                                    android:textSize="17dp" />
+
+                                <RadioButton
+                                    android:id="@+id/car2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:text="Toyota Noah(7-8 Person , BDT 6,000)"
+                                    android:textColor="#000000"
+                                    android:textSize="17dp">
+
+                                </RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/car3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="Tourist Bus(20-21 Person , BDT 11,000)"
+                                    android:textColor="#000000"
+                                    android:textSize="17dp">
+
+                                </RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/car4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text=" Toyota Allion(3-4 Person , BDT 4,500)"
+                                    android:textColor="#000000"
+                                    android:textSize="17dp">
+
+                                </RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/car5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text=" Toyota Hiace(14-15 Person , BDT 9,500)"
+                                    android:textColor="#000000"
+                                    android:textSize="17dp">
+                                </RadioButton>
+                            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How many selected cars you want"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#0F2088"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                >
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="5dp">
+
+                <Button
+                    android:id="@+id/minus_car"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="2dp"
+                    android:text="-"
+                    android:textSize="22dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/showNumberOfCar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="7dp"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:text="1"
+                    android:textColor="#2D6A2F"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:id="@+id/plus_car"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="2dp"
+                    android:text="+"
+                    android:textSize="25dp"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/ok2"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/purple_700"
+                android:textSize="16dp"
+                android:text="Ok"
+                android:textColor="#FDFCFC"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

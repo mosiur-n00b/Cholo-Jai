@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".hotelCarSelect"
+  >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Select Hotel"
+        android:background="#374AB3"
+        android:textSize="25dp"
+        android:paddingTop="5dp"
+        android:textColor="#FBF7F7"
+        android:paddingLeft="20dp"/>
+
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="7dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:text="Number Of Person"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/minusPerson"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="70dp"
+                    android:padding="2dp"
+                    android:text="-"
+                    android:textSize="30dp"
+                    />
+
+                <EditText
+                    android:id="@+id/showPerson"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:text="1"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    />
+
+                <Button
+                    android:id="@+id/plusPerson"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="2dp"
+                    android:text="+"
+                    android:textSize="30dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/cheakInDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#C2C6C6"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="155dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:gravity="center"
+                        android:text="Check-In-Date"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/viewCheakInDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:textColor="#237326"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        ></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cheakOutDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="38dp"
+                    android:orientation="vertical"
+                    android:background="#C2C6C6"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="155dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:text="Check-Out-Date"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:layout_marginRight="5dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/viewCheakOutDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:textColor="#237326"
+                        android:textSize="20dp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="12dp"
+                android:paddingTop="10dp"
+                android:text="Choose Hotel And Rooms(per day rate) "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+            <LinearLayout
+                android:id="@+id/longbeachLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/long_beach"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/long_beach"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="5dp"
+                            android:text="Long Beach Hotel"
+                            android:textColor="#000000"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            />
+
+                        <RatingBar
+                            android:id="@+id/MyRating5"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:progressTint="#CC7B05"
+                            android:rating="5"
+                            android:stepSize="0.1"
+                            />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:background="@drawable/ic_baseline_location_on_24">
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/showLocation1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textColor="#1177D1"
+                                android:text="see the location"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="70dp"
+                            android:text=" Start From BDT 4,000 per night"
+                            android:textColor="#407504"
+                            android:textSize="12dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/seagullLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/seagull"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/seagull"
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="5dp"
+                            android:text="Hotel Seagull"
+                            android:textColor="#000000"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+
+
+                            />
+
+                        <RatingBar
+                            android:id="@+id/MyRating2"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:isIndicator="true"
+                            android:numStars="4"
+                            android:progressTint="#CC7B05"
+                            android:rating="5"
+                            android:stepSize="0.1"
+                            />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:background="@drawable/ic_baseline_location_on_24">
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/showLocation2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textColor="#1177D1"
+                                android:text="see the location"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="70dp"
+                            android:text=" Start From BDT 3,100 per night"
+                            android:textColor="#407504"
+                            android:textSize="12dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/primeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/prime"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="5dp"
+                            android:text="Prime Park Hotel"
+                            android:textColor="#000000"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            />
+
+                                        <RatingBar
+                                            android:id="@+id/MyRating3"
+                                                style="?android:attr/ratingBarStyleSmall"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                             android:isIndicator="true"
+                                               android:numStars="3"
+                                               android:progressTint="#CC7B05"
+                                               android:rating="5"
+                                              android:stepSize="0.1"
+                                          />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:background="@drawable/ic_baseline_location_on_24">
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/showLocation3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textColor="#1177D1"
+                                android:text="see the location"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="70dp"
+                            android:text=" Start From BDT 2,806 per night"
+                            android:textColor="#407504"
+                            android:textSize="12dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/sea_shineLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/sea_shine"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/sea_shine"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="5dp"
+                            android:text="Hotel Sea Shine"
+                            android:textColor="#000000"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:background="@drawable/ic_baseline_location_on_24">
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/showLocation4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textColor="#1177D1"
+                                android:text="see the location"></TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="22dp"
+                            android:layout_marginLeft="70dp"
+                            android:text=" Start From BDT 1,102 per night"
+                            android:textColor="#407504"
+                            android:textSize="12dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

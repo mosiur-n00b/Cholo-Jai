@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bandarban">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Bandarban"
+        android:background="#374AB3"
+        android:textSize="25dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#FBF7F7"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Packages"
+                android:textColor="#000000"
+                android:textSize="20dp"
+
+                />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="187dp"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="#368BB5"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nilima Package"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Locations :  Nilgiri + Nilachol + Nil Diganta + Milonchori"
+                        android:textSize="16dp"
+                        android:textColor="@color/white"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Days : 4 days and 3 night"
+                        android:textSize="16dp"
+                        android:textColor="@color/white"
+                        >
+                    </TextView>
+                    <TextView
+                        android:id="@+id/kashmiri_cost"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="cost : 10000tk (Per Person) "
+                        android:textSize="16dp"
+                        android:textColor="@color/white"></TextView>
+
+
+                <Button
+                    android:id="@+id/kashmiri"
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="169dp"
+                    android:layout_marginTop="25dp"
+                    android:text="BOOK NOW"
+                    android:textSize="16dp">
+                </Button>
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="187dp"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="#EDE14F7D"
+                android:orientation="vertical"
+                android:padding="5dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Arannya Package"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Locations : Shoilo Propat Waterfall + Keokradong+  + Bogalake + Amiyakhum Waterfall + Satbhaikhum"
+                        android:textSize="16dp"
+                        android:textColor="@color/white"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Days : 3 days and 2 nights"
+                        android:textSize="16dp"
+                        android:textColor="@color/white"
+                        >
+                    </TextView>
+                    <TextView
+                        android:id="@+id/arannya_cost"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="cost : 5000tk (Per Person) "
+                        android:textSize="16dp"
+                        android:textColor="@color/white"></TextView>
+
+                <Button
+                    android:id="@+id/arannya"
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="169dp"
+                    android:layout_marginTop="8dp"
+                    android:text="BOOK NOW"
+                    android:textSize="16dp">
+
+                </Button>
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Choose as you wish"
+                android:textColor="#000000"
+                android:textSize="20dp"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/nafakhumLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/nafakhum"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Nafakhum Waterfall"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/nafakhum" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+
+                        android:text="Nafakhum is a waterfall in Bangladesh on the Sangu River. It is among the largest waterfalls in the country by volume of water falling."
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/buddhadhatuLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+                >
+
+                <CheckBox
+                    android:id="@+id/buddhadhatu"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Buddha Dhatu Jadi"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/swarnamandir" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+
+                        android:text="Buddha Dhatu is a temple where the relics belong to Buddha. It is the largest Theravada Buddhist temple in Bangladesh and has the second-largest Buddha statue in the country. " />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/chimbukLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+                >
+
+                <CheckBox
+                    android:id="@+id/chimbuk"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Chimbuk Hill"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/chimbuk" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+
+                        android:text="Chimbuk hill is the third highest mountain in Bangladesh.While looking down from Chimbuk, you will have the feelings of floating over the clouds."
+                        />
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/damtuaLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+                >
+
+                <CheckBox
+                    android:id="@+id/damtua"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Damtua Waterfall"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/damtua" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+
+                        android:text="‘Damtua Waterfall’ will be in the first row among the beautiful and large fountains in length, width or look.The road to Damtua Jharna is quite inaccessible and adventurous."
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/alicaveLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+                >
+
+                <CheckBox
+                    android:id="@+id/alicave"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Ali's Cave"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/alicave" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+
+                        android:text=" Ali's Cave is a through cave in a hill south of the village.It is an erosional cave created by the forces of the flowing water. The river forms a gorge, which is underground for some time."
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/marayanLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+                >
+
+                <CheckBox
+                    android:id="@+id/marayan"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Marayan Dong"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/marayan" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+
+                        android:text="Marayan Dong, a mountain of Mirina Range has a buddhist temple at the top of the mountain. It has a huge Buddha statue.The upper part is flat.Its a valley of cloud."
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/tinduLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+                >
+
+                <CheckBox
+                    android:id="@+id/tindu"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Tindu"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img7"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/tindu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+
+                        android:text=" Tindu is a place for adventure-loving tourists.Two corridors have gone on the two sides of Tindu and all day long from those, water comes out with crystal clean flows."
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:text="Next"
+                    android:layout_marginLeft="150dp"
+                    android:background="@color/purple_200"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

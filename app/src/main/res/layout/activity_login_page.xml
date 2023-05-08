@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".loginPage"
+    android:background="@drawable/login_coverpic">
+
+    <LinearLayout
+        android:layout_width="378dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="269dp"
+            android:layout_height="106dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="7dp"
+            android:text="Already Have an Account?"
+            android:textSize="37sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:layout_width="109dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/person_icon"></ImageView>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="email"
+        android:textSize="20sp"
+        android:ems="10"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawablePadding="12dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="12dp"
+        android:drawableStart="@drawable/custom_email_icon"
+        android:textFontWeight="400"
+        android:background="@drawable/custom_input">
+    </EditText>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="password"
+        android:textSize="20sp"
+        android:ems="10"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawablePadding="12dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/custom_lock_icon"
+        android:textFontWeight="400"
+        android:background="@drawable/custom_input">
+    </EditText>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="197dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/login_button"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:textFontWeight="500"
+        android:textSize="25sp"></Button>
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Forgot password?"
+        android:textSize="22dp"
+        android:textColor="#FFFCFC"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:textFontWeight="550"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="New User? Register Now"
+        android:textSize="25dp"
+        android:layout_marginTop="3dp"
+        android:textColor="#0B0B0B"
+        android:layout_gravity="center"
+        >
+    </TextView>
+
+
+
+</LinearLayout>

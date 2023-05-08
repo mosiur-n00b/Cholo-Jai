@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".khagrachori">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Khagrachari"
+        android:background="#374AB3"
+        android:textSize="25dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#FBF7F7"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Packages"
+                android:textColor="#000000"
+                android:textSize="20dp"
+
+                />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="360dp"
+                        android:layout_height="187dp"
+                        android:layout_margin="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#368BB5"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Romancho Package"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            >
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Locations : Alutila Cave + Matai Pukhiri + Toiduchora + Risang Waterfall"
+                            android:textSize="16dp"
+                            android:textColor="@color/white"
+                            >
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Days : 2 days and 1 night"
+                            android:textSize="16dp"
+                            android:textColor="@color/white"
+                            >
+                        </TextView>
+                        <TextView
+                            android:id="@+id/romancho_cost"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="cost : 5000tk (Per Person) "
+                            android:textSize="16dp"
+                            android:textColor="@color/white"></TextView>
+
+
+                        <Button
+                            android:id="@+id/romancho"
+                            android:layout_width="170dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="169dp"
+                            android:layout_marginTop="25dp"
+                            android:text="BOOK NOW"
+                            android:textSize="16dp">
+                        </Button>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="360dp"
+                        android:layout_height="187dp"
+                        android:layout_margin="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#EDE14F7D"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" Ghuraghuri Package"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            >
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Locations : Ramgarh Lake + Horticulture Heritage Park + Hatimura + Newzeland Para + Mung Rajbari"
+                            android:textSize="16dp"
+                            android:textColor="@color/white"
+                            >
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Days : 3 days and 2 nights"
+                            android:textSize="16dp"
+                            android:textColor="@color/white"
+                            >
+                        </TextView>
+                        <TextView
+                            android:id="@+id/ghuraghuri_cost"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="cost : 7200tk (Per Person) "
+                            android:textSize="16dp"
+                            android:textColor="@color/white"></TextView>
+
+                        <Button
+                            android:id="@+id/ghuraghuri"
+                            android:layout_width="170dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="169dp"
+                            android:layout_marginTop="8dp"
+                            android:text="BOOK NOW"
+                            android:textSize="16dp">
+
+                        </Button>
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Choose as you wish"
+                android:textColor="#000000"
+                android:textSize="20dp"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/mataiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/matai"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Matai Pukhiri"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/matai" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="Debotar pukur means the lake of god, and it is a sacred lake to the local people. In local language this is known as Matai pukhiri. There is a river created from the outflow of the river.
+"
+
+                        android:textAlignment="textStart" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/panchariLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+                >
+
+                <CheckBox
+                    android:id="@+id/panchari"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Panchari Shantipur Aranya Kutir"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/panchari" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+                        android:text="Panchari Shantipur Aranya Kutir  is a peripheral region. The largest Buddha sculpture of Bangladesh (Panchari Brihot Buddha Sculpture) is situated here.
+ " />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/mayabiniLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+                >
+                <CheckBox
+                    android:id="@+id/mayabini"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Mayabini Lake"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/mayabini" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+                        android:text="Mayabini lake is a  wonderful tourist spot to enjoy Kayaking, camping, natural beauty,tribal customs and cultures etc. of hill tracts with friends and family members."
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mungLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+                >
+
+                <CheckBox
+                    android:id="@+id/mung"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Mung Rajbari"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/mung" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+
+                        android:text="Mung Rajbari is another attraction is the Rajbari or palace of the Mogh Chief at Manikchari in Khagrachhari District.It  is the ancient original residence of the historical Mong king in Manikchhari .
+"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/alutilaLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+                >
+
+                <CheckBox
+                    android:id="@+id/alutila"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Alutila Cave"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/alutila" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+
+                        android:text=" Alutila Cave is  also called Alutila Mysterious Cave.The cave is 100 meters long. It has a natural subway-like shape with cold water flowing at bottom. The cave is so dark that torches or locally sold flambeaux are used to see well enough to walk around the cave.
+"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/hatimuraLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+                >
+
+                <CheckBox
+                    android:id="@+id/hatimura"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Hatimura"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/hatimura" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+
+                        android:text="Hatimura is also known as Mayung Kopal. Locally it's known as Sorger Shiri. It is a great place to enjoy the whole city view from top of a hill. It's all green around.
+"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/risangLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+                >
+
+                <CheckBox
+                    android:id="@+id/risang"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Risang"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img7"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/risang" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+
+                        android:text="Risang Waterfall,If you look at the Valley of Thousand Feet under, someone will be shocked at the wonderful charm. The natural fall from this spring is about 30 meters high. The whole atmosphere is rocky. Waterfall water falls below 100 feet above the mountain.
+"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:text="Next"
+                    android:layout_marginLeft="150dp"
+                    android:background="@color/purple_200"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

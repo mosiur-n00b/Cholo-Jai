@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".rangamati">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Rangamati"
+        android:background="#374AB3"
+        android:textSize="25dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#FBF7F7"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="2dp"
+                            android:text="Packages"
+                            android:textColor="#000000"
+                            android:textSize="20dp"
+
+                            />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="187dp"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="#368BB5"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Jolkona Package"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/white"
+                                    >
+                                </TextView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Locations : Komlok Waterfalls + Muppochora Jhorna + Dhuppani Waterfalls + Sajek Valley"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/white"
+                                    >
+                                </TextView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Days : 2 days and 1 night"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/white"
+                                    >
+                                </TextView>
+                                <TextView
+                                    android:id="@+id/jolkona_cost"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="cost : 5010 tk (Per Person) "
+                                    android:textSize="16dp"
+                                    android:textColor="@color/white"></TextView>
+
+                <Button
+                    android:id="@+id/jolkona"
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="169dp"
+                    android:layout_marginTop="25dp"
+                    android:text="BOOK NOW"
+                    android:textSize="16dp"></Button>
+                            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="187dp"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="#EDE14F7D"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+            >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Meghrajjo Package"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/white"
+                                    >
+                                </TextView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Locations : Lake View Island + Hazachora Wqaterfalls + Sajek Valley+ Hanging Bridge + Happy Island"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/white"
+                                    >
+                                </TextView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Days : 4 days and 3 nights"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/white"
+                                    >
+                                </TextView>
+                                <TextView
+                                    android:id="@+id/meghrajjo_cost"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="cost : 9000 tk (Per Person) "
+                                    android:textSize="16dp"
+                                    android:textColor="@color/white"></TextView>
+
+                        <Button
+                            android:id="@+id/meghrajjo"
+                            android:layout_width="170dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="169dp"
+                            android:layout_marginTop="8dp"
+                            android:text="BOOK NOW"
+                            android:textSize="16dp"></Button>
+                                </LinearLayout>
+
+                             </LinearLayout>
+                    </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Choose as you wish"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/sajekLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/sajek"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Sajek Valley"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/sajek" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+                        android:text="Sajek valley is famous for its natural beauty. The valley is surrounded by mountains, dense forest, grasslands hilly tracks.The valley is 1,800 ft high form sea lavel."
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/kaptaiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <CheckBox
+                    android:id="@+id/kaptai"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Kaptai Lake"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/kaptai" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+                        android:text="Kaptai Lake is the largest man made lake in Bangladesh.It is one of the best natural attraction in Bangladesh .very scenic all over with lash green jungle surrounded by water.
+
+                        " />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/rajbanLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:addStatesFromChildren="true"
+                >
+
+                <CheckBox
+                    android:id="@+id/rajban"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Rajban Bihar"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/rajban" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+                        android:text=" Rajbon Bihar is a symbol of secularity as it is one of the loveliest Buddhist temples of Bangladesh. The temple is 1 km far from Moitri Vihar situated at Rangamati municipality. "
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/shuvolongLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:addStatesFromChildren="true"
+                >
+
+                <CheckBox
+                    android:id="@+id/shuvolong"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Shuvolong Jhorna"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/shuvolong" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+                        android:text="Shuvolong Waterfall is a beautiful waterfall in Rangamati.People visit there by boat. It is a famous place with the tourists for the waterfall, high hills and the natuarl surrounding it offers."
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/hazachoraLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:addStatesFromChildren="true"
+                >
+
+                <CheckBox
+                    android:id="@+id/hazachora"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Hazachora Waterfalls"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/hazachora" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+                        android:text="Hazachora Waterfalls  is a waterfall located in Rangamati district's Baghaichari Upazila in the Baghaighat area of Sajek Union.It is filled with scenic beauty. Most tourists visit Hazachora on their way back from Sajek Valley.."
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/happyLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:addStatesFromChildren="true"
+                >
+
+                <CheckBox
+                    android:id="@+id/happy"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Happy Island"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/happy" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+                        android:text=" This is in the fullest list of children in Iceland for sophisticated swimming pools, water rider, various types of entertainment for entertainment with a variety of sports items."
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/komlokLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:addStatesFromChildren="true"
+                >
+
+                <CheckBox
+                    android:id="@+id/komlok"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Komlok Waterfalls"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img7"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/komlok" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+                        android:text="Komlok Waterfall is the main attraction for tourists visiting Sajek. Beautiful mountain ranges all around, white cotton-like cloud valleys will fascinate you."
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:text="Next"
+                    android:layout_marginLeft="150dp"
+                    android:background="@color/purple_200"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".contact"
+    android:gravity="center"
+    android:background="@drawable/cont">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile: 01517006328, 01783838386"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: cholojai9@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Facebook:"
+            android:textSize="20dp"
+            android:layout_marginRight="4dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="https://www.facebook.com/groups/cholojai"
+            android:textSize="20dp">
+        </TextView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

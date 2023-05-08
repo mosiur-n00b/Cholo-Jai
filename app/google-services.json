@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "40190989531",
+    "project_id": "cholojai-994e3",
+    "storage_bucket": "cholojai-994e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40190989531:android:6fb64594e9e156d813a8fe",
+        "android_client_info": {
+          "package_name": "com.example.gadgethouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40190989531-sda2ino2l6m2v5463tqms8dspgqmipb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhvMjhMj5Kz0MunrkSmhUzhFa9GZ1gYNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40190989531-sda2ino2l6m2v5463tqms8dspgqmipb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".district">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Choose your place"
+        android:background="#374AB3"
+        android:textSize="24dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:textColor="#FBF7F7"
+        android:layout_marginBottom="15dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="9dp"
+    >
+
+    <Button
+        android:id="@+id/dhaka"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:text="Dhaka"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:background="@drawable/dhakab"
+        android:layout_marginLeft="13dp" />
+
+    <Button
+        android:id="@+id/sylhet"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:text="Sylhet"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:background="@drawable/sylhetb"
+        android:layout_marginLeft="10dp"
+        />
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        >
+        <Button
+            android:id="@+id/rangamati"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:text="Rangamati"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:background="@drawable/rangamatib"
+            android:layout_marginLeft="13dp"/>
+
+        <Button
+            android:id="@+id/chittagong"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:text="Chittagong"
+            android:textSize="18dp"
+            android:background="@drawable/chittagongb"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        >
+        <Button
+            android:id="@+id/coxs_bazar"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:text="Cox's Bazar"
+            android:textColor="@color/white"
+            android:background="@drawable/coxsbazarb"
+            android:textSize="18dp"
+            android:layout_marginLeft="13dp"/>
+
+        <Button
+            android:id="@+id/khagrachari"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:text="khagrachari"
+            android:textColor="@color/white"
+            android:background="@drawable/khagracharib"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        >
+        <Button
+            android:id="@+id/bandarban"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:text="bandarban"
+            android:textColor="@color/white"
+            android:background="@drawable/bandarbonb"
+            android:textSize="18dp"
+            android:layout_marginLeft="13dp"/>
+
+        <Button
+            android:id="@+id/gazipur"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:text="Gazipur"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/gazipurb"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        >
+        <Button
+            android:id="@+id/comilla"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:text="Comilla"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/comillab"
+            android:layout_marginLeft="13dp"/>
+        <Button
+            android:id="@+id/tangail"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:text="Tangail"
+            android:textSize="18dp"
+            android:background="@drawable/tangailb"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact us"
+            android:textSize="23dp"
+            android:background="#7C000000"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="172dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+           android:textAlignment="center"
+            android:padding="2dp">
+        </TextView>
+
+
+</LinearLayout>

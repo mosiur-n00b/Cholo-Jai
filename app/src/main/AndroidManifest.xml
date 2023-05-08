@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gadgethouse">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GadgetHouse">
+        <activity android:name=".contact"></activity>
+        <activity android:name=".seashine_coxbazar" />
+        <activity android:name=".prime_coxbazar" />
+        <activity android:name=".mount_khagrachari" />
+        <activity android:name=".noor_khagrachari" />
+        <activity android:name=".bilas_khagrachari" />
+        <activity android:name=".ecochari_khagrachari" />
+        <activity android:name=".khagrachari_hotel" />
+        <activity android:name=".khagrachori" />
+        <activity android:name=".diamond_bandarban" />
+        <activity android:name=".royal_bandarban" />
+        <activity android:name=".peninsula_bandarban" />
+        <activity android:name=".well_park_bandarban" />
+        <activity android:name=".richmond_gazipur" />
+        <activity android:name=".hasna_gazipur" />
+        <activity android:name=".dream_gazipur" />
+        <activity android:name=".white_gazipur" />
+        <activity android:name=".sky_comilla" />
+        <activity android:name=".victory_comilla" />
+        <activity android:name=".welcome_comilla" />
+        <activity android:name=".red_comilla" />
+        <activity android:name=".ocean_chittagong" />
+        <activity android:name=".golden_chittagong" />
+        <activity android:name=".wellpark_chittagong" />
+        <activity android:name=".radissonblue_chittagong" />
+        <activity android:name=".nagar_dhaka" />
+        <activity android:name=".civic_dhaka" />
+        <activity android:name=".monsoon_dhaka" />
+        <activity android:name=".panpacific_dhaka" />
+        <activity android:name=".chittagong_hotel" />
+        <activity android:name=".bandarban_hotel" />
+        <activity android:name=".comilla_hotel" />
+        <activity android:name=".gazipur_hotel" />
+        <activity android:name=".dhaka_hotel" />
+        <activity android:name=".hotelx_tangail" />
+        <activity android:name=".prince_tangail" />
+        <activity android:name=".elenga_tangail" />
+        <activity android:name=".jomuna_tangail" />
+        <activity android:name=".moti_rangamati" />
+        <activity android:name=".green_rangamati" />
+        <activity android:name=".prince_rangamati" />
+        <activity android:name=".needs_rangamati" />
+        <activity android:name=".holy_sylhet" />
+        <activity android:name=".rose_sylhet" />
+        <activity android:name=".nirvana_sylhet" />
+        <activity android:name=".noorjahan_sylhet" />
+        <activity android:name=".sylhet_hotels" />
+        <activity android:name=".tangail_hotel" />
+        <activity android:name=".rangamati_hotel" />
+        <activity android:name=".comilla" />
+        <activity android:name=".tangail" />
+        <activity android:name=".rangamati" />
+        <activity android:name=".seagull" />
+        <activity android:name=".receipt2" />
+        <activity android:name=".receipt" />
+        <activity android:name=".select_car" />
+        <activity android:name=".long_beach" />
+        <activity android:name=".gazipur" />
+        <activity android:name=".chittagong" />
+        <activity android:name=".bandarban" />
+        <activity android:name=".dhaka" />
+        <activity android:name=".sylhet" />
+        <activity android:name=".general_Form" />
+        <activity android:name=".hotelCarSelect" />
+        <activity android:name=".coxs_bazar" />
+        <activity android:name=".district" />
+        <activity android:name=".mainbody" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".loginPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

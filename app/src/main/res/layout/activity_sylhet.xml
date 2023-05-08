@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sylhet">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sylhet"
+        android:background="#374AB3"
+        android:textSize="25dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#FBF7F7"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Packages"
+                android:textColor="#000000"
+                android:textSize="20dp"
+
+                />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="360dp"
+                    android:layout_height="187dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#368BB5"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jolshiri Package"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Locations : Ratargul Swamp Forest + Bisnakandi + Jaflong + Volagonj"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Days : 3 days and 2 night"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/jolshiri_cost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="cost : 4000 tk (Per Person) "
+                        android:textColor="@color/white"
+                        android:textSize="16dp"></TextView>
+
+                    <Button
+                        android:id="@+id/jolshiri"
+                        android:layout_width="170dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="169dp"
+                        android:layout_marginTop="25dp"
+                        android:text="BOOK NOW"
+                        android:textSize="16dp"></Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="360dp"
+                    android:layout_height="187dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#EDE14F7D"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gohin Package"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Locations : Jaflong + Songrampunji Waterfall + Tamabil + Lokkhonchora +Malnicherra Tea Garden"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Days : 4 days and 3 nights"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/gohin_cost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="cost : 9000 tk (Per Person) "
+                        android:textColor="@color/white"
+                        android:textSize="16dp"></TextView>
+
+                    <Button
+                        android:id="@+id/gohin"
+                        android:layout_width="170dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="169dp"
+                        android:layout_marginTop="8dp"
+                        android:text="BOOK NOW"
+                        android:textSize="16dp"></Button>
+                </LinearLayout>
+            </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Choose as you wish"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:id="@+id/hakalukiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/hakaluki"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Hakaluki Haor"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/hakaluki" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="Hakaluki Haor  is one of Bangladesh's largest and one of Asia's larger marsh wetland resources. A total of 558 species of animals and birds have been identified here."
+                        android:textAlignment="textStart"
+
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/malniLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/malni"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Malnicherra Tea Estate"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/malnicchera" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text=" Malnicherra Tea Estate is the oldest tea garden in the subcontinent. It is not only the largest and first established tea garden in Bangladesh, but also in the subcontinent."
+                        android:textAlignment="textStart"
+
+
+                        />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/panthumaiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/panthumai"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Panthumai Waterfall"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/panthumai" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="Panthumai is a very beautiful village on the Bangladesh-India border.  The name of this Waterfall is selected based on the name of Panthumai village in Bangladesh."
+                        android:textAlignment="textStart"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/bisnakandiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/bisnakandi"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Bisnakandi"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/bisnakandi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text=" This is where many layers of the Khasi mountain meet at a single point from both sides. Flowing from above is a high fall. Adding to its charm are dark clouds hugging the mountain in the rainy season. ."
+                        android:textAlignment="textStart"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/dibirLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/dibir"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Dibir Haor"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dibir_haor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="Dibir haor,a beautiful tourish spot surrounded by mountain at the foot of.During winter these beels wear an attractive look with the blooming of water lilies and the entire place look like a carpet decorated with the red water lilies "
+                        android:textAlignment="textStart"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/songrampunjiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/songrampunji"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Songrampunji Waterfall"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/somgrampunji" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="Songrampunji Waterfall is the main attraction of Jaflong. This is the big waterfall in Bangladesh. It takes only 20 minutes from Jaflong Zero Point."
+                        android:textAlignment="textStart"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/shahLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/shah"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Hazrat Shah Poran (RA) Mazar"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img7"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/shahporan" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="The mazar of Hazrat Shah Paran (R) is located at a greater distance from the Sylhet town.Everyday thousands of people come to visit the mazar to pay their respect and honor for this Sufi Saint."
+                        android:textAlignment="textStart"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/lovachoraLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/lovachora"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Lovachora"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img8"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/lovachora" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="textStart"
+                        android:text="Visit to Lovachora involves with a boat journey from Kanaighat Sodor.The shades of far-flung hills falling on the crystal clear streams of the Lova make for a heavenly sight."
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/purple_200"
+                    android:text="Next" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

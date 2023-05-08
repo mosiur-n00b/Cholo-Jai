@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tangail">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tangail"
+        android:background="#374AB3"
+        android:textSize="25dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#FBF7F7"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="6dp"
+                android:text="Packages"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="187dp"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="#368BB5"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Kashmiri Package"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/white"
+                                    >
+                                </TextView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Locations : Karatia Jomidar Bari + Pakutia Zamidar Bari + Sagardighi + Adom Kashmir Majar"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/white"
+                                    >
+                                </TextView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Days : 2 days and 1 night"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/white"
+                                    >
+                                </TextView>
+                                <TextView
+                                    android:id="@+id/kashmiri_cost"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="cost : 4000 tk (Per Person) "
+                                    android:textSize="16dp"
+                                    android:textColor="@color/white"></TextView>
+
+                    <Button
+                    android:id="@+id/kashmiri"
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="169dp"
+                    android:layout_marginTop="8dp"
+                    android:text="BOOK NOW"
+                    android:textSize="16dp">
+                    </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="187dp"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="#EDE14F7D"
+                android:orientation="vertical"
+                android:padding="5dp">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Jomidari Package"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/white"
+                                    >
+                                </TextView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Locations :Nagpur Zamidar Bari + Pirgachha Rubber Garden + Mohera Jamidar Bari + Atia Mosque + Pakutia Zamidar Bari"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/white"
+                                    >
+                                </TextView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Days : 4 days and 3 nights"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/white"
+                                    >
+                                </TextView>
+                                <TextView
+                                    android:id="@+id/jomidari_cost"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="cost : 9000 tk (Per Person) "
+                                    android:textSize="16dp"
+                                    android:textColor="@color/white"></TextView>
+                                <Button
+                                    android:id="@+id/jomidari"
+                                    android:layout_width="170dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginLeft="169dp"
+                                    android:layout_marginTop="8dp"
+                                    android:text="BOOK NOW"
+                                    android:textSize="16dp">
+
+                                </Button>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+        </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Choose as you wish"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:id="@+id/moheraLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/mohera"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Mohera Jamidar Bari"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/mohera" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="Mohera Jamidar Bari, Tangail was founded by Kali Charan Shahagong , at present operated and maintained by the Bangladesh Police.."
+                        android:textAlignment="textStart" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/pirgachhaLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/pirgachha"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Pirgachha Rubber Garden"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/pirgachha" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="Pirgachha, Tangail     The innumerable rubber trees standing in innumerable sarees in huge size will undoubtedly fascinate you! Seeing the sari sari rubber tree, you will think that a group of trees is standing in its glory
+
+                        "
+                        android:textAlignment="textStart" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/porirLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/porir"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Porir Dalan"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/porir" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="In front of the main building there is two beautiful angel statues at the top, that is why the palace is known as ”Parir Dalan”.The walls, pillars and doors contain the beautiful work of colourful glasses."
+                        android:textAlignment="textStart" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/domeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/dome"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text=" The 201 Dome Masque"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dome" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="201-dome mosque has become the center of attraction for people all around the country.The 451-foot minaret of the mosque is the tallest concrete minaret in the world, recognized by Guinness World Records."
+                        android:textAlignment="textStart" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/madhupurLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/madhupur"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Madhupur National Park"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/modhupur" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="This park is quite suitable as a tourist spot, as it has an ecological variety, indigenous peoples and enticing natural and scenic beauty.At present, the Park has about 190 types of animals."
+                        android:textAlignment="textStart" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/dhanbariLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/dhanbari"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Dhanbari Nawab Manzil"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dhanbari" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="This palace was built by the Nawab Ali Chowdhury during 1919 to invite the British Lord Ronaldshay.This is the only heritage resort from our Bangladesh.This is also known as Dhanbari Royal Resort."
+                        android:textAlignment="textStart" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/atiaLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/atia"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="2dp"
+                    android:text="Atia Mosque"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></CheckBox>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/img7"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/atia" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text="Atia Jame Mashjid’ is a historical 400-year-old mosque.It has four spherical domes.The mosque has lovely terracotta decorations on the outer side of the east and north walls."
+                        android:textAlignment="textStart"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/purple_200"
+                    android:text="Next" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

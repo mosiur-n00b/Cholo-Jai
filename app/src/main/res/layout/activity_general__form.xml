@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".general_Form"
+    android:background="@drawable/gf"
+   >
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Tourists Information"-->
+<!--        android:background="#374AB3"-->
+<!--        android:textSize="25dp"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:textColor="#FBF7F7"-->
+<!--        android:paddingLeft="20dp"/>-->
+
+    <TextView
+        android:id="@+id/bkashText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please pay first taka in Bkash 01517006328 number"
+        android:textSize="20dp"
+        android:paddingTop="20dp"
+        android:textColor="#D10E1F"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Information "
+        android:textSize="40dp"
+        android:paddingTop="20dp"
+        android:textColor="#000000"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details Form "
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+       android:textStyle="italic"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="25dp"
+    />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile No:"
+            android:textSize="22dp"
+            android:textColor="#000000"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="1dp"
+            />
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
+          android:inputType="number"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NID No:"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="1dp"
+        />
+    <EditText
+        android:id="@+id/idNo"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="1dp"
+        android:inputType="number"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bkash  Number:"
+            android:textSize="22dp"
+            android:textColor="#000000"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="1dp"
+            />
+        <EditText
+            android:id="@+id/bkashNum"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:hint="  from you send"
+            android:layout_marginTop="1dp"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="20dp"
+            android:text="Email:"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            />
+        <TextView
+            android:id="@+id/emailView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:text="Confirm and Exit"
+        android:background="#C90B405A"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="115dp"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+
+    </LinearLayout>
